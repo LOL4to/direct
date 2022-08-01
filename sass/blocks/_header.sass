@@ -1,0 +1,49 @@
+.header
+  padding: 40px 0 38px 0 
+  font-family: 'Consolas', serif
+  font-weight: 500
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: 45
+  background-color: #000000
+  &__row
+    display: flex
+    justify-content: space-between
+  &__logo
+    display: inline-block
+    width: 130px
+    height: 52px
+    &-img
+      width: 100%
+      height: 100%
+  &__navbar
+    display: flex
+    align-items: flex-start
+    margin-left: auto
+  &__item:not(:last-child)
+    margin-right: 50px
+  &__link
+    font-weight: 500
+    font-size: 16px
+    line-height: 21px
+    color: $primary
+  &__menu-button
+    width: 28px
+    height: 14px
+    padding: 0
+    margin-left: auto
+    display: none //в медиа на нужной ширине сделать "flex"
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    border: none
+    background-color: #262D33
+    cursor: pointer
+    z-index: 10
+.menu-button
+  &__line
+    width: 100%
+    height: 2px
+    background-color: #ffffff

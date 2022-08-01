@@ -1,0 +1,59 @@
+@font-face 
+  font-family: "DrukCyr"
+  src: url("../fonts/DrukCyr-Bold.woff") format("woff")
+  src: url("../fonts/DrukCyr-Bold.woff2") format('woff2')
+  src: url("../fonts/DrukCyr-Bold.ttf") format('truetype')
+  font-style: normal
+  font-weight: 700
+@font-face 
+  font-family: "DrukMedium"
+  src: url("../fonts/DrukCyr-Medium.woff") format("woff")
+  src: url("../fonts/DrukCyr-Medium.woff2") format('woff2')
+  src: url("../fonts/DrukCyr-Medium.ttf") format('truetype')
+  font-style: normal
+  font-weight: 500
+@font-face 
+  font-family: "DrukWide"
+  src: url("../fonts/DrukWide-Bold.woff") format("woff")
+  src: url("../fonts/DrukWide-Bold.woff2") format('woff2')
+  src: url("../fonts/DrukCyr-Bold.ttf") format('truetype')
+  font-style: normal
+  font-weight: 700
+@font-face 
+  font-family: "Montserrat"
+  src: url("../fonts/Montserrat-Bold.woff") format("woff")
+  src: url("../fonts/Montserrat-Bold.woff2") format('woff2')
+  font-style: normal
+  font-weight: 700
+*
+  box-sizing: border-box
+body
+  padding-top: 0px //если шапка position: slick, то двигаем body на высоту шапки
+  background: $dark
+  color: $primary
+  font-family: 'DrukWide', serif
+.container
+  max-width: 1200px //стОит учесть паддинги
+  margin: auto
+  padding: 0 15px 0 15px
+h1,h2,h3,h4
+  margin: 0
+  padding: 0
+p
+  margin: 0
+a
+  text-decoration: none
+  cursor: pointer
+input
+  outline: none
+  border: none
+button
+  border: none
+  cursor: pointer
+ul, ol
+  margin: 0
+  padding: 0
+  li
+    list-style: none
+.invalid
+  color: $invalid

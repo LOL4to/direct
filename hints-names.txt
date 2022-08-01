@@ -1,0 +1,60 @@
+wrapper
+wrap
+main
+content
+row
+col
+column
+
+//----- Текст -----//
+title
+subtitle
+text
+subtext
+span
+
+//----- Графика -----//
+img
+bcg
+icon
+logo
+
+//----- Родители -----//
+list
+item
+sublist
+subitem
+card
+block
+group
+about
+info
+social
+menu
+nav
+navbar
+
+//----- Нажатие -----//
+link
+button
+btn
+reference (ссылка)
+ref (ссылка)
+--prev
+--next
+
+//----- Разное -----//
+name
+numb
+number
+post (должность)
+user
+avatar
+date (дата)
+comments
+events (события)
+tel
+--color
+--size
+--fixed
+

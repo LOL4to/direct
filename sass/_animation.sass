@@ -1,0 +1,55 @@
+
+  .main__email-link
+    animation: main__email-link .8s linear 0s 
+    
+  @keyframes main__email-link
+    0%
+      transform: translateY(99vh)
+    14%
+      transform: translateY(-100%)
+    28%
+      transform: translateY(100%)
+    42%
+      transform: translateY(-10%)
+    56%
+      transform: translateY(60%)
+    70%
+      transform: translateY(-10%)
+    85%
+      transform: translateY(20%)
+    100%
+      transform: translateY(0%)
+
+    
+  .main__geo-img
+    animation: main__geo-img 1s linear .4s forwards
+    
+  @keyframes main__geo-img
+    0%
+      opacity: 0
+    100%
+      opacity: 1
+@media (min-width: 991px)
+  .header__link::after
+    animation: header__link 0.6s cubic-bezier(0.42, 0, 0, 1.37) 0s forwards
+    
+  @keyframes header__link
+    0%
+      left: 100vw
+    50%
+      left: -40%
+    75%
+      left: 40%
+    100%
+      left: 0
+  
+  .about__case
+    animation: about__case .3s linear 0s forwards
+
+  @keyframes about__case
+    0%
+      top: -500%
+    100%
+      top: 100%
+
+           

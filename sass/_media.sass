@@ -1,0 +1,387 @@
+// Описание кнопочки справа наверху
+
+
+
+
+
+  
+// Ховер эффекты для экранов 
+@media (min-width: 993px)
+  a
+    transition-duration: .6s
+  .logo
+    &:hover
+      transform: scale(1.1)
+  .header__item
+    position: relative
+    transition-duration: .8s
+    &:hover>.header__link::after
+      content: ''
+      position: absolute
+      width: 100%
+      height: 2px
+      bottom: 0
+      background-color: #ffffff
+      z-index: 10
+
+
+
+
+
+
+
+      
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .cases
+    &__list
+      gap: 0 20px
+    &__block
+      &--left
+        max-width: 430px
+      &--right
+        max-width: 430px
+    &__modal
+      &-block
+        margin-bottom: 140px
+  .about
+    &__case
+      &-block
+        flex-basis: 21%
+
+
+
+
+
+
+    
+@media (max-width: 1024px)
+  .container
+    max-width: 960px
+  .main__title
+    font-size: 60px
+    line-height: 60px
+
+
+
+
+
+
+    
+@media (max-width: 992px)
+  .container
+    max-width: 850px
+    width: 92%
+  .about
+    padding: 100px 0
+    &__item
+      flex-basis: 25%
+      &--right
+        flex-basis: 70%
+        max-width: 100%
+    &__wrap
+      padding-top: 60px
+      padding-bottom: 140px
+    &__case
+      justify-content: space-between
+      gap: 100px 20px
+      &-block
+        flex-basis: 41%
+      &::before
+        top: 29%
+        left: 0
+        width: 100%
+        height: 1px
+        border-bottom: 1px solid #bfbfbf
+      &::after
+        top: 67%
+        left: 0
+        width: 100%
+        height: 1px
+        border-bottom: 1px solid #bfbfbf
+  .cases
+    &__list
+      gap: 0 15px
+    &__block
+      &--left
+        max-width: 48%
+      &--right
+        max-width: 48%
+    &__modal
+      &-block
+        flex-direction: column
+        margin-bottom: 20px
+        &-item
+          max-width: 100%
+          height: auto
+      // &-block
+      //   flex-basis: 21%
+      &-span
+        margin-bottom: 20px
+      &-text
+        max-width: 100%
+        margin-right: 0
+        margin-bottom: 20px
+      &-subtext
+        margin-bottom: 60px
+      &-title--hidden
+        display: block
+  
+  .actives
+    &-container
+      padding-left: 15px
+      padding-right: 15px
+      margin: auto
+      max-width: 92%
+    &__title
+      margin-left: 0
+
+    
+@media (max-width: 820px)
+  // .container 
+  //   max-width: 700px
+  .header
+    &__item:not(:last-child)
+      margin-right: 30px
+  .clients
+    padding: 40px 0 40px 0
+  .footer
+    &-row
+      align-items: flex-start
+    &-title
+      margin-bottom: 30px
+      font-size: 24px
+      line-height: 29px
+    &-about
+      font-size: 16px
+      line-height: 20px
+      margin-bottom: 30px
+    &-info
+      font-size: 16px
+      line-height: 20px
+    &__input-group
+      flex-basis: 100%
+
+
+
+
+
+@media (max-width: 670px)
+  .container
+    max-width: 87%
+  .body--visible
+    position: fixed
+    overflow: hidden
+
+  .header
+    &__logo
+      width: 98px
+      height: 39px
+    &__menu-button
+      display: flex
+    &__navbar
+      display: none
+      &--visible
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding-top: 10px
+        position: fixed
+        left: 0
+        right: 0
+        top: 130px
+        bottom: 0
+        background-color: #000000
+    &__item
+      margin-bottom: 10px
+      &:not(:last-child)
+        margin-right: 0px
+    &__link
+      font-size: 21px
+
+  .main
+    &__title
+      font-size: 42px
+      line-height: 51px
+    &__geo, &__email
+      font-size: 16px
+      line-height: 20px
+
+  .about
+    &__item
+      flex-basis: 100%
+      &--left
+        margin-bottom: 20px
+      &--right
+        flex-basis: 100%
+        max-width: 100%
+    &__block
+      display: flex
+      justify-content: space-between
+    &__text
+      margin-bottom: 40px
+    &__wrap
+    &__case
+      gap: 100px 5px
+      &-title
+        font-size: 24px
+        line-height: 29px
+        margin-bottom: 30px
+      &-text
+        font-size: 24px
+        line-height: 29px
+        margin-bottom: 4px
+      &-subtext
+        font-size: 10px
+        line-height: 12px
+      &-block
+        &--100per
+          align-items: center
+          flex-basis: 100%
+          text-align: center
+      &::before
+        top: 21%
+      &::after
+        top: 50%
+
+  .cases
+    padding: 40px 0
+    &__wrap
+      max-height: 775px
+    &__list
+      gap: 0 15px
+    &__block
+      &--left
+        max-width: 100%
+      &--right
+        max-width: 100%
+    &__item
+      margin-bottom: 30px
+    &__showmore
+      display: none
+
+  .actives
+    &-container
+      max-width: 87%
+    &__title
+      font-size: 24px
+      line-height: 29px
+    &__span
+      font-size: 20px
+      line-height: 24px
+
+  .footer
+    &-row
+      position: relative
+      flex-direction: column
+      align-items: center
+    &__contacts
+      order: 1
+      align-items: center
+    &__block-form 
+      margin-top: 54px
+      margin-bottom: 80px
+    &-title
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 1
+
+
+
+  
+@media (max-width: 480px)
+  .header
+    &__logo
+      width: 65px
+      height: 26px
+    &__title
+      margin-bottom: 380px
+
+  .about
+    padding: 40px 0
+    &__text
+      font-size: 16px
+      line-height: 20px
+  .cases
+    padding: 40px 0
+    &__wrap
+      max-height: 500px
+  .actives
+    padding-top: 40px
+    background-color: $dark
+    &__item
+      margin-right: 15px
+    &__title
+      margin-bottom: 20px
+    &__swiper
+      padding-top: 40px
+      padding-bottom: 40px
+      background-color: $blue
+    &__item
+      width: 165px
+      height: 297px
+  .clients
+    padding: 40px 0 0 0
+    &__title
+      font-size: 24px
+      line-height: 29px
+  .footer
+    padding: 40px 0
+    
+
+
+
+
+    
+@media (max-width: 320px)
+  .body
+    min-width: 320px
+  .container
+    max-width: 295px
+  .main
+    &__title
+      text-align: start
+  .actives
+    &-container
+      max-width: 320px
+
+    
+    //-------------- Modal window --------------//
+@media (max-width: 530px)
+  .modal
+    &__dialog
+      width: 90vw
+      padding: 33px 55px
+    &__button
+      width: 100%
+      min-width: 120px 
+      margin-bottom: 20px
+      padding: 15px
+      order: 1
+    &__info
+      padding: 0
+        ////S
+@media (max-width: 380px)
+  .modal
+    &__dialog
+      padding: 33px 33px
+@media (max-height: 550px)
+  .modal
+    &__scroll
+      overflow-y: auto
+      scrollbar-color: #ec1f446e $dark
+      scrollbar-width: thin
+      &::-webkit-scrollbar
+        width: 10px
+        background: $dark
+      &::-webkit-scrollbar-thumb
+        border-right: 3px solid #ec1f446e
+    &__dialog 
+      height: 90%
+    &__input
+      height: 45px
+    &__message
+      min-height: 90px
+        ////S

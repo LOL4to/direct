@@ -1,0 +1,47 @@
+{
+	"explorer.confirmDelete": false,
+	"editor.wordWrap": "on",
+	"explorer.confirmDragAndDrop": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.hover.enabled": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"window.zoomLevel": 1,
+	"editor.formatOnPaste": true, 
+	"editor.accessibilityPageSize": 3,
+	"scm.inputFontSize": 10,
+	"editor.tabSize": 2,
+	"editor.fontSize": 13,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.resolveGlobalModules": true,
+	"prettier.enable": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"diffEditor.wordWrap": "on",
+	"workbench.editor.wrapTabs": true,
+	"prettier.useTabs": true,
+	"workbench.editor.enablePreview": false,   
+	"workbench.colorCustomizations": {
+		"terminalCursor.background": "#ffc504",
+		"terminalCursor.foreground": "#49c84f",
+		"terminal.ansiBrightYellow": "#fb1616",
+		"terminal.foreground": "#49df69",
+		"terminal.background": "#292929",
+		"terminal.border": "#bea6a6"
+	},
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorWidth": 2,
+	"terminal.integrated.defaultLocation": "editor",
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".css",
+			"savePath": "./css/"
+		}
+	],
+	"workbench.colorTheme": "Palenight Operator",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"editor.formatOnSave": true
+}

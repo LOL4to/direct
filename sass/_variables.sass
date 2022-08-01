@@ -1,0 +1,20 @@
+$primary: #ffffff
+$dark: #000
+$blue: #001CAD
+$invalid: rgb(210, 0, 0)
+$grad: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+=scrollbar
+  overflow-y: auto
+  scrollbar-color: #ec1f446e #234234
+  scrollbar-width: thin
+  &::-webkit-scrollbar
+    width: 4px
+  &::-webkit-scrollbar-track 
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset
+    background-color: #b0b0dd
+    border-radius: 10px
+  &::-webkit-scrollbar-thumb 
+    border-right: 1px solid #0000006e
+    border-left: 1px solid #0000006e
+    border-radius: 8px
+    background: linear-gradient(180deg, #13c9fc, #d43030)
